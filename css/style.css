@@ -10,3 +10,31 @@ html {
     scroll-behavior: smooth;
     font-size: 16px;
 }
+
+.site {
+    border-radius: 16px;
+}
+
+.site-content {
+    display: inline-flex;
+    gap: 12px;
+    padding: 16px;
+}
+
+.site-btn {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border-radius: 12px;
+    padding: 12px 24px;
+    border: none;
+    background-color: #ffff;
+    border: 1px solid #E5E7EB
+}
+
+.active {
+    background: #523EE8;
+    color: #ffff;
+}
